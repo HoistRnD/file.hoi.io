@@ -1,0 +1,68 @@
+{
+  "name": "file.hoi.io",
+  "version": "0.0.0",
+  "description": "Hoist file api",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "grunt test"
+  },
+  "config": {
+    "travis-cov": {
+      "threshold": 1
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hoist/file.hoi.io.git"
+  },
+  "author": "Hoist Apps Ltd",
+  "bugs": {
+    "url": "https://github.com/hoist/file.hoi.io/issues"
+  },
+  "dependencies": {
+    "express": "*",
+    "redis": "*",
+    "moment": "*",
+    "mongoose-eventify": "*",
+    "connect-redis": "*",
+    "passport": "*",
+    "mongoose-q": "*",
+    "winston": "*",
+    "mongoose": "*",
+    "glob": "*",
+    "request": "*",
+    "bcrypt": "*",
+    "validator": "*",
+    "connect-flash": "*",
+    "pkginfo": "*",
+    "underscore": "~1.5.2",
+    "forever": "*",
+    "express-winston": "*",
+    "raygun": "*",
+    "domain": "*",
+    "newrelic": "*",
+    "config": "*",
+    "connect-multiparty": "~1.0.1",
+    "azure": "~0.7.17",
+    "hoist-core": "git+ssh://git@github.com:hoist/hoist-core"
+  },
+  "devDependencies": {
+    "time-grunt": "*",
+    "load-grunt-tasks": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-develop": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-mocha-test": "*",
+    "blanket": "*",
+    "chai-as-promised": "*",
+    "chai": "*",
+    "mocha": "*",
+    "grunt-contrib-watch": "*",
+    "supertest": "*",
+    "cookie": "*",
+    "travis-cov": "~0.2.4",
+    "nock": "~0.23.0"
+  }
+}

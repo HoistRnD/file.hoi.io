@@ -1,0 +1,16 @@
+{
+  "log": {
+    "targets": [{
+      "type": "file",
+      "options": {
+        "level": "debug",
+        "json": false,
+        "filename": "log/test-out.log"
+      }
+    }]
+  },
+  "db": "mongodb://localhost/hoist-test",
+  "mongo": {
+    "db": "mongodb://localhost/hoist-test"
+  }
+}
